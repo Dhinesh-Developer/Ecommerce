@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - GK</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <!-- <img src="https://via.placeholder.com/40x40/2874f0/ffffff?text=GK" alt="GK Logo"> -->
+                <span class="logo-text">GK</span>
+            </div>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products, brands and more">
+                <button>🔍</button>
+            </div>
+            
+            <a href="signin.html" class="login-btn">Login</a>
+            
+            <div class="nav-links">
+                <div>More</div>
+                <div><a href="cart.html">Cart</a></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Payment Content -->
+    <div class="container">
+        <h2 class="section-title">Payment Options</h2>
+        
+        <div class="payment-methods">
+            <div class="payment-method selected">
+                <img src="https://logo.clearbit.com/paytm.com" alt="Paytm">
+                <span>Paytm Wallet/UPI</span>
+            </div>
+            
+            <div class="payment-method">
+                <img src="https://logo.clearbit.com/phonepe.com" alt="PhonePe">
+                <span>PhonePe</span>
+            </div>
+            
+            <div class="payment-method">
+                <img src="https://logo.clearbit.com/amazonpay.in" alt="Amazon Pay">
+                <span>Amazon Pay</span>
+            </div>
+            
+            <div class="payment-method">
+                <img src="https://logo.clearbit.com/razorpay.com" alt="Credit/Debit Card">
+                <span>Credit/Debit Card</span>
+            </div>
+            
+            <div class="payment-method">
+                <img src="https://logo.clearbit.com/netbanking.hdfcbank.com" alt="Net Banking">
+                <span>Net Banking</span>
+            </div>
+            
+            <div class="payment-method">
+                <img src="https://logo.clearbit.com/cashondelivery.com" alt="Cash on Delivery">
+                <span>Cash on Delivery</span>
+            </div>
+        </div>
+        
+        <div class="payment-details">
+            <h3>Enter Payment Details</h3>
+            <input type="text" placeholder="Card Number">
+            <input type="text" placeholder="Name on Card">
+            <div style="display: flex; gap: 10px;">
+                <input type="text" placeholder="Expiry Date (MM/YY)" style="flex: 1;">
+                <input type="text" placeholder="CVV" style="flex: 1;">
+            </div>
+            <button class="pay-now-btn" onclick="window.location.href='order.html'">PAY NOW</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li>Careers</li>
+                    <li>Press</li>
+                    <li>GK Stories</li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Help</h3>
+                <ul>
+                    <li>Payments</li>
+                    <li>Shipping</li>
+                    <li>Returns</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Policy</h3>
+                <ul>
+                    <li>Return Policy</li>
+                    <li>Terms of Use</li>
+                    <li>Security</li>
+                    <li>Privacy</li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Social</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>YouTube</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            © 2023 GK.com. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
